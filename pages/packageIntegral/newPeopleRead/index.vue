@@ -1,0 +1,158 @@
+<template>
+
+  <view class="member-doc-ctner">
+      <view class="word word-sub-title word-b">
+        什么是成氏商城？
+      </view>
+      <view class="word">
+        成氏商城是一家基于宗氏家族社交群体为依托的会员制社交电商平台，精选优质好货，为会员家人提供超值商品和会员专享服务。专业选品团队精选居家、食品、电子、母婴、美妆、服饰箱包等品质好货，通过新零售模式直供广大会员。并不断优化上游供应链，最大限度降低消费者购物成本，为会员家人带去极致购物体验。
+      </view>
+
+      <view class="word word-sub-title word-b">
+        成氏商城会员有哪些权益?
+      </view>
+      <view class="word">
+        1.全场免邮
+      </view>
+      <view class="word">
+        成为商城会员，可享全场商品免邮特权，会员等级越高，可享受的权限越多。
+      </view>
+      <view class="word">
+        2.超值会员价
+      </view>
+      <view class="word">
+        全场专享价商品享受专属会员价（如天猫88会员），95折起，后期可叠加使用优惠券、红包、津贴等优惠，可参与满减、买赠等多商品活动，以商城实际活动运营公告为准。
+      </view>
+      <view class="word">
+        3.超级闪购（每日低价/秒杀）
+      </view>
+      <view class="word">
+        会员可参与日常超级闪购、活动期间的超级会员专场。每日活动：每天xx点开始抢购（秒杀），超级会员可以超低折扣价购买指定商品，商品数量有限，购完即止。每月活动：超级会员每月有不定期的专属活动，为你带来买一赠一等惊喜福利。大促专场：大促期间，超级会员专场活动提供多种活动玩法，诸如红包雨、满减赠送、H5寻宝等福利。
+      </view>
+      <view class="word">
+        4.免费试用（每月1件/起）
+      </view>
+      <view class="word">
+        热门商品会员免费领，会员试用商品每月不定时更新，商品平均价值大约为xx元，每月限量，先到先得。部分商品不定期补货，以商城实际情况为准。免费试用商品不支持使用红包、折扣等优惠券，以商城实际活动运营为准。
+      </view>
+      <view class="word">
+        5.专属客服
+      </view>
+      <view class="word">
+        专属客服管家，为你优先解惑答疑。极速售后：超级会员在退换货时，选择寄回方式为“上门取件”，在快递员反馈成氏商城退回运单号后，优先进入退款/换货流程，为你节省商品退回的物流等待时间和收货检测的处理时间。自行寄回的退换货申请暂不支持极速售后。
+      </view>
+      <view class="word word-sub-title word-b">
+        成氏商城会员
+      </view>
+      <view class="word">
+        a、普通会员：费用￥9.9 原价￥29.9 有效期：30天 会员性质：体验、消费、分享
+      </view>
+      <view class="word">
+        b、超级会员：费用￥99.9 原价￥299 有效期：365天 会员性质：消费、分享、可升级
+      </view>
+      <view class="word">
+        c、终生会员：费用￥999 原价￥2999 有效期：终生 会员性质：体验、消费、分享
+      </view>
+      <view class="word">
+        成氏商城合伙人等级分为“分享者”、“高级合伙人”：
+      </view>
+      <view class="word">
+        分享者：分享者可通过推荐注册和分享商品获得相应平台权益。任何用户都可免费成为分享者，用户通过手机实名认证即可成为分享者并将获得平台唯一的分享码标识。
+      </view>
+      <view class="word">
+        高级合伙人：用户通过分享者或合伙人推荐成为平台合伙人，经平台审核后支付相应合伙人费用即可成为合伙人，合伙人享受平台线上收益及公司整体收益分享权益。成为平台高级合伙人可最高享受成氏商城（深圳）深圳有限公司年分红总额度的5%，由高级合伙人团队均分。
+      </view>
+      <view class="word word-sub-title word-b">
+        商城积分有什么用处？
+      </view>
+      <view class="word">
+        1、积分当钱花
+      </view>
+      <view class="word">
+        购买商品时可以使用积分抵扣一部分现金(每1000积分抵扣10元现金)。
+      </view>
+      <view class="word">
+        2、免费试用新品
+      </view>
+    <view class="word">
+      积分可兑换新品免费试用的机会，可免费申请商城好物，参与积分抽奖等活动。
+    </view>
+    <view class="word">
+      3、积分兑换商品
+    </view>
+    <view class="word">
+      商城积分每个月可兑换领取优惠特权商品：腾讯视频会员卡，机场贵宾厅使用权，电影兑换券、外卖红包兑换券、商品专享优惠券，无门槛优惠券等。
+    </view>
+    <view class="word">
+      3、积分兑换会员
+    </view>
+    <view class="word">
+      可使用一定数额积分兑换月卡、年卡会员。
+    </view>
+    <view class="word word-sub-title word-b">
+      如何获取商城积分？
+    </view>
+    <view class="word">
+      1. 购物获积分
+    </view>
+    <view class="word">
+      一般情况下，用户消费满1元，即可获取积分+1。用户在平台直接产生消费，积分奖励按照消费金额1:1发放，当用户在平台产生消费、确认收货并提交评价，后台将审核通过后发放相应积分；期间若发生退换货，积分将不予发放。请勿违规刷积分（包含但不限于虚假交易、恶意退款等），若发现存在违规行为，成氏商城有权取消用户获得积分的资格。
+      用户在平台消费，确认收货后，平台按照一定比例返回积分。
+    </view>
+    <view class="word">
+      2.签到获积分
+    </view>
+    <view class="word">
+      用户每日到成氏商城签到即可获取相应积分。
+    </view>
+    <view class="word">
+      3.分享获积分
+    </view>
+    <view class="word">
+      分享商品给用户，用户从分享链接中进入小程序，分享者即可获得积分。
+    </view>
+    <view class="word">
+      4.评价获积分
+    </view>
+    <view class="word">
+      确认收货后，对商品进行评价即可获得积分。
+    </view>
+    <view class="word">
+      5.绑定手机获积分
+    </view>
+    <view class="word">
+      用户首次在成氏商城绑定手机号，可获得相应积分。
+    </view>
+    <view class="word word-sub-title word-b">
+      积分有效期是多久？
+    </view>
+    <view class="word">
+      成氏商城会员积分有效期为1年（365天）。
+    </view>
+
+  </view>
+
+</template>
+
+<script>
+
+export default {
+  data() {
+    return {
+      data: {}
+    };
+  },
+
+  mixins: [],
+  components: {},
+  props: {},
+  methods: {},
+  computed: {},
+  watch: {}
+};
+</script>
+<style lang="scss" scoped="scoped">
+
+@import "./index";
+
+</style>

@@ -1,0 +1,101 @@
+{
+    "pages": [
+		{
+		    "path": "pages/mine/index"
+		    
+		},
+		{
+		    "path": "pages/recom/index",
+			"style": {
+				// "app-plus":{ //单个页面去掉导航栏
+				// "titleView":false
+				// }
+			}
+		},
+		//这里开始 C+页面
+		{
+		    "path": "pages/packageIntegral/newPeopleRead/index"
+		},
+		{
+		    "path": "pages/packageIntegral/commonProblem/index"
+		},
+		{
+		    "path": "pages/packageIntegral/integralRegion/index"
+		},
+		{
+		    "path": "pages/packageIntegral/memberIntegralSignIn/index"
+		},
+		{
+		    "path": "pages/packageIntegral/memberRank/index"
+		},
+		{
+		    "path": "pages/packageRecom/taleDetail/index"
+		},
+		{ 
+		    "path": "pages/packageIndex/goodsDetail/index"
+		},
+		{ 
+		    "path": "pages/classify/index"
+		},
+		{
+		    "path": "pages/packageIndex/search/index",
+			"style": {
+				"usingComponents": {
+					// "SearchItem":"/components/searchItem/index"
+				}
+			}
+		}
+    ],
+    "tabBar": {
+        "backgroundColor": "#ffffff",
+        "borderStyle": "white",
+        "selectedColor": "#ff9a6a",
+        "color": "#999",
+        "list": [{
+                "pagePath": "pages/comic/comic",
+                "iconPath": "static/images/home_light.png",
+                "selectedIconPath": "static/images/me_buy.png",
+                "text": "首页未"
+            },
+            {
+                "pagePath": "pages/classify/index",
+                "iconPath": "static/images/news_hot_light.png",
+                "selectedIconPath": "static/images/news_hot_fill_light.png",
+                "text": "分类未"
+            },
+			{
+			    "pagePath": "pages/recom/index",
+			    "iconPath": "static/images/logo.jpg",
+			    "selectedIconPath": "static/images/logo_new.png",
+			    "text": "C+"
+			},
+            {
+                "pagePath": "pages/ucenter/ucenter",
+                "iconPath": "static/images/cart_light.png",
+                "selectedIconPath": "static/images/cart_fill_light.png",
+                "text": "购物车未"
+            },
+			{
+			    "pagePath": "pages/mine/index",
+			    "iconPath": "static/images/my_light.png",
+			    "selectedIconPath": "static/images/my_fill_light.png",
+			    "text": "我的"
+			}
+        ]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true,
+    "globalStyle": {
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": false,
+        "backgroundColor": "#FFFFFF",
+        "backgroundTextStyle": "dark",
+		"app-plus": {"titleNView": false} //所有页面去掉导航栏，如需单个页面去掉 则在style:"" 里面配置
+    }
+}

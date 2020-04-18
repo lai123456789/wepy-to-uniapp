@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/mine/index",
+    "pages/recom/index",
+    "pages/packageIntegral/newPeopleRead/index",
+    "pages/packageIntegral/commonProblem/index",
+    "pages/packageIntegral/integralRegion/index",
+    "pages/packageIntegral/memberIntegralSignIn/index",
+    "pages/packageIntegral/memberRank/index",
+    "pages/packageRecom/taleDetail/index",
+    "pages/packageIndex/goodsDetail/index",
+    "pages/classify/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "selectedColor": "#ff9a6a",
+    "color": "#999",
+    "list": [
+      {
+        "pagePath": "pages/comic/comic",
+        "iconPath": "static/images/home_light.png",
+        "selectedIconPath": "static/images/me_buy.png",
+        "text": "首页未"
+      },
+      {
+        "pagePath": "pages/classify/index",
+        "iconPath": "static/images/news_hot_light.png",
+        "selectedIconPath": "static/images/news_hot_fill_light.png",
+        "text": "分类未"
+      },
+      {
+        "pagePath": "pages/recom/index",
+        "iconPath": "static/images/logo.jpg",
+        "selectedIconPath": "static/images/logo_new.png",
+        "text": "C+"
+      },
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "iconPath": "static/images/cart_light.png",
+        "selectedIconPath": "static/images/cart_fill_light.png",
+        "text": "购物车未"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/images/my_light.png",
+        "selectedIconPath": "static/images/my_fill_light.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

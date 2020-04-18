@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/*
+ * @description css 常量
+ * @Author: icarbonx-mini 
+ * @Date: 2018-06-29 11:31:41 
+ * @Last Modified by: icarbonx-mini
+ * @Last Modified time: 2018-08-20 11:24:57
+ */
+/*
+ * @description css 常量
+ * @Author: icarbonx-mini 
+ * @Date: 2018-06-29 11:31:41 
+ * @Last Modified by: icarbonx-mini
+ * @Last Modified time: 2018-08-20 11:24:57
+ */
+button.icx-clear-after-border.data-v-2854ee2e::after {
+  border: 0;
+}
+.icx-placeholder.data-v-2854ee2e {
+  color: #D8D8D8;
+  font-size: 24rpx;
+}
+input[class~="icx-input"].data-v-2854ee2e {
+  color: #333;
+  font-size: 24rpx;
+  background: red;
+  color: #444;
+  background: #F6F6F6;
+  padding: 0 16rpx;
+  border-radius: 30rpx;
+  letter-spacing: 2rpx;
+  height: 60rpx;
+}
+textarea[class~="icx-input"].data-v-2854ee2e {
+  color: #333;
+  font-size: 24rpx;
+  background: #F6F6F6;
+  width: 100%;
+  padding: 15rpx 15rpx;
+  box-sizing: border-box;
+}
+.icx-click-hover.data-v-2854ee2e {
+  opacity: 0.8;
+}
+button.icx-btn.data-v-2854ee2e::after {
+  border: 0;
+}
+.icx-btn-submit.data-v-2854ee2e {
+  background: #666;
+  border-radius: 6px;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #FFF;
+}
+button.icx-btn-same-sure.data-v-2854ee2e::after {
+  border: 0;
+}
+button.icx-btn-same-cancel.data-v-2854ee2e::after {
+  border: 0;
+}
+button.icx-btn-same-sure.data-v-2854ee2e {
+  height: 62rpx;
+  line-height: 62rpx;
+  background: #FF7F00;
+  color: #FFF;
+  border-radius: 8rpx;
+  font-size: 26rpx;
+}
+button.icx-btn-same-cancel.data-v-2854ee2e {
+  height: 62rpx;
+  line-height: 62rpx;
+  font-size: 26rpx;
+  background: #FFF;
+  color: #FF7F00;
+  border: 1rpx solid #FF7F00;
+}
+.wxParse-p image.data-v-2854ee2e {
+  width: 100%;
+  vertical-align: top;
+}
+.wxParse-p view.data-v-2854ee2e,
+.wxParse-p text.data-v-2854ee2e {
+  line-height: 1.6;
+}
+.no-data-tip.data-v-2854ee2e {
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  margin-top: 20rpx;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.member-doc-ctner.data-v-2854ee2e {
+  padding: 12rpx 30rpx;
+}
+.member-doc-ctner .word.data-v-2854ee2e {
+    text-indent: 2em;
+    line-height: 2;
+    font-size: 26rpx;
+    margin-bottom: 4rpx;
+}
+.member-doc-ctner .word-sub-title.data-v-2854ee2e {
+    font-size: 30rpx;
+    margin-top: 30rpx;
+}
+.member-doc-ctner .word-title.data-v-2854ee2e {
+    text-align: center;
+    font-size: 30rpx;
+}
+.member-doc-ctner .word-b.data-v-2854ee2e {
+    font-weight: bolder;
+}
+

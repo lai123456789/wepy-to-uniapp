@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/*
+ * @description css 常量
+ * @Author: icarbonx-mini 
+ * @Date: 2018-06-29 11:31:41 
+ * @Last Modified by: icarbonx-mini
+ * @Last Modified time: 2018-08-20 11:24:57
+ */
+/*
+ * @description css 常量
+ * @Author: icarbonx-mini 
+ * @Date: 2018-06-29 11:31:41 
+ * @Last Modified by: icarbonx-mini
+ * @Last Modified time: 2018-08-20 11:24:57
+ */
+button.icx-clear-after-border.data-v-04e8ba72::after {
+  border: 0;
+}
+.icx-placeholder.data-v-04e8ba72 {
+  color: #D8D8D8;
+  font-size: 24rpx;
+}
+input[class~="icx-input"].data-v-04e8ba72 {
+  color: #333;
+  font-size: 24rpx;
+  background: red;
+  color: #444;
+  background: #F6F6F6;
+  padding: 0 16rpx;
+  border-radius: 30rpx;
+  letter-spacing: 2rpx;
+  height: 60rpx;
+}
+textarea[class~="icx-input"].data-v-04e8ba72 {
+  color: #333;
+  font-size: 24rpx;
+  background: #F6F6F6;
+  width: 100%;
+  padding: 15rpx 15rpx;
+  box-sizing: border-box;
+}
+.icx-click-hover.data-v-04e8ba72 {
+  opacity: 0.8;
+}
+button.icx-btn.data-v-04e8ba72::after {
+  border: 0;
+}
+.icx-btn-submit.data-v-04e8ba72 {
+  background: #666;
+  border-radius: 6px;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #FFF;
+}
+button.icx-btn-same-sure.data-v-04e8ba72::after {
+  border: 0;
+}
+button.icx-btn-same-cancel.data-v-04e8ba72::after {
+  border: 0;
+}
+button.icx-btn-same-sure.data-v-04e8ba72 {
+  height: 62rpx;
+  line-height: 62rpx;
+  background: #FF7F00;
+  color: #FFF;
+  border-radius: 8rpx;
+  font-size: 26rpx;
+}
+button.icx-btn-same-cancel.data-v-04e8ba72 {
+  height: 62rpx;
+  line-height: 62rpx;
+  font-size: 26rpx;
+  background: #FFF;
+  color: #FF7F00;
+  border: 1rpx solid #FF7F00;
+}
+.wxParse-p image.data-v-04e8ba72 {
+  width: 100%;
+  vertical-align: top;
+}
+.wxParse-p view.data-v-04e8ba72,
+.wxParse-p text.data-v-04e8ba72 {
+  line-height: 1.6;
+}
+.no-data-tip.data-v-04e8ba72 {
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  margin-top: 20rpx;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+page.data-v-04e8ba72 {
+  height: 100%;
+}
+.integral-ctner.data-v-04e8ba72 {
+  position: relative;
+  background: #FFFFFF;
+  height: 100%;
+}
+.integral-ctner .integral-top-title.data-v-04e8ba72 {
+    padding: 26rpx 45rpx;
+    color: black;
+    font-weight: bold;
+    font-size: 34rpx;
+}
+.integral-ctner .integral-top-outer.data-v-04e8ba72 {
+    width: 100%;
+    height: 62rpx;
+    padding: 0rpx 45rpx;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.integral-ctner .integral-top-outer.data-v-04e8ba72::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '';
+      height: 1px;
+      width: 100%;
+      background: #ECECEC;
+      -webkit-transform: scaleY(0.5);
+              transform: scaleY(0.5);
+}
+.integral-ctner .integral-top-outer .ot-same.data-v-04e8ba72 {
+      border-bottom: 2rpx solid #FFF;
+      font-size: 24rpx;
+}
+.integral-ctner .integral-top-outer .ot-same text.data-v-04e8ba72:nth-of-type(2) {
+        margin: 0 20rpx;
+}
+.integral-ctner .integral-top-outer .ot-same text.active.data-v-04e8ba72 {
+      color: #FF7F00;
+      border-color: #FF7F00;
+}
+.integral-ctner .integral-top-outer view:last-child text.data-v-04e8ba72:nth-of-type(2) {
+    display: none;
+    margin-right: 20rpx;
+}
+.integral-ctner .integral-top-con.data-v-04e8ba72 {
+    height: 100%;
+}
+.integral-ctner .integral-top-con swiper.data-v-04e8ba72 {
+      height: 100%;
+}
+.integral-ctner .integral-top-con .swiper-div-same.data-v-04e8ba72 {
+      padding: 12rpx 30rpx;
+      min-height: 100%;
+      width: 100%;
+}
+.integral-ctner .order-com.data-v-04e8ba72 {
+    margin-bottom: 20rpx;
+}
+
