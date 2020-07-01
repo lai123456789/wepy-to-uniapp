@@ -1,5 +1,6 @@
 ## 成氏商城h5
 分类页 进去 商品列表  右边的收藏按钮  字段没返回collection  等后面登录流程走通再来看  具体路径：pages/packageIndex/search/index?categoryId=113
+https://github.com/zhangdaren/wepy-to-uniapp  wepy转uniapp 命令行
 
 ## screenshot
 <img src="https://tianyue.oss-cn-hangzhou.aliyuncs.com/comic-wx/screenshot1.png" width="330" hspace="20">
